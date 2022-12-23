@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import '@tourmalinecore/react-tc-modal/es/index.css';
+import '@tourmalinecore/react-tc-ui-kit/es/index.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
