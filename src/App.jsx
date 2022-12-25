@@ -57,7 +57,7 @@ function App() {
 
         <div className='app__photo-input-div'>
           <div style={{position: 'absolute', top:'50%', left: '50%', pointerEvents: 'none', transform: 'translate(-50%, -50%)'}}>
-            Choose file...
+            Нажимай и вставляй картинку
             </div>
           <input className='app__photo-input' type="file" onChange={getInputImage} />
         </div>
